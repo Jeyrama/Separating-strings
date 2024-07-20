@@ -15,3 +15,6 @@ Shorter words will have an empty string in the
 place once the word has already been mapped out. 
 (See the last element in the last part of the array.)
 */
+
+
+// Solution
