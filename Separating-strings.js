@@ -18,3 +18,14 @@ place once the word has already been mapped out.
 
 
 // Solution
+
+function sepStr(arr) {
+  let words = arr.split(/\s+/),
+     length = Math.max(...words.map(w => w.length)),
+     result = [];
+
+  for(let i = 0; i < length; i++) {
+    result.push(words.map(w => w[i] || ''));
+  }
+  return result;
+}
