@@ -29,3 +29,5 @@ function sepStr(arr) {
   }
   return result;
 }
+
+// or
